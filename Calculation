@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,n,sum=0,diff,mul,div;
+	printf("enter 1st num: ");
+	scanf("%d",&a);
+	printf("enter 2nd num: ");
+	scanf("%d",&b);
+	printf("1.Addition \n2.Subtraction \n3.Multiplication \n4.Division");
+	printf("\nenter your choice: ");
+	scanf("%d",&n);
+	if(n==1)
+	{
+		sum=a+b;
+		printf("Addition is: %d",sum);
+	}
+	else if(n==2)
+	{
+		diff=a-b;
+		printf("subtraction is: %d",diff);
+	}
+	else if(n==3)
+	{
+		mul=a*b;
+		printf("multiplicatin is: %d",mul);
+	}
+	else if(n==4)
+	{
+		div=a/b;
+		printf("division is: %d",div);
+	}
+}
